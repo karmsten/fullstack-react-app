@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { requestTaskCreation } from "../app/store/mutations";
+import { requestTaskCreation } from "../store/mutations";
 import { Link } from 'react-router-dom';
 
 export const TaskList = ({ tasks, name, id, createNewTask }) => (

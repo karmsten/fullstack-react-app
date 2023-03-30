@@ -1,10 +1,10 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { store } from '../app/store';
+import { store } from '../store';
 import { ConnectedDashboard } from './Dashboard';
 import { ConnectedLogin } from './Login';
 import { Router, Route} from 'react-router-dom';
-import { history } from '../app/store/history';
+import { history } from '../store/history';
 import { ConnectedNavigation } from './Navigation';
 import { ConnectedTaskDetail } from './TaskDetail';
 import { Redirect } from 'react-router-dom';
